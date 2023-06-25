@@ -49,8 +49,8 @@ int main()
     OurString hello("Hello, group!");
     OurString copy = hello;
 
-    std::cout << hello.getString() << '\n';
-    std::cout << copy.getString() << '\n';
+    std::cout << "Original: " << hello.getString() << '\n';
+    std::cout << "Copy:     " << copy.getString() << '\n';
 
     return 0;
 }
